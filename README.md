@@ -34,7 +34,7 @@ being $x_t \in ℝ$ denotes the state at time $t\in ℤ_{\geq0}$, $u_t \in ℝ$,
 Toward interpreting the decision taken by DeePC, we construct a Mosaic matrix from the (raw) input/output data of the system stored in [`Data`](Data) to reflect the differences between the two local behaviors of the PWA system.
 
 <p align="center">
-  <img src="imgs/M.png" width="40%" alt='Tasti Project'>
+  <img src="imgs/Mosaic_matrix.png" width="60%" alt='Tasti Project'>
 </p>
 
 ### Lasso-DeePC
