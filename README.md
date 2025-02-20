@@ -1,5 +1,4 @@
-[![Matlab](https://img.shields.io/badge/MATLAB-R2023a-BLUE.svg)](https://shields.io/](https://nl.mathworks.com/products/new_products/release2023a.html)
-
+[![Matlab](https://img.shields.io/badge/MATLAB-R2023a-BLUE.svg)](https://nl.mathworks.com/products/new_products/release2023a.html)
 
 # On the impact of shrinkage in DeePC for Piecewise Affine Systems
 
