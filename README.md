@@ -37,14 +37,14 @@ Toward interpreting the decision taken by DeePC, we construct a Mosaic matrix fr
   <img src="imgs/Mosaic_matrix.png" width="60%" alt='Tasti Project'>
 </p>
 
-### Lasso-DeePC
+### iLasso-DeePC
 The following gifs showcase a reference tracking performed with a Lasso-DeePC formulation jointly with its data selection.
 
 
 
 
 
-### CAP-DeePC
+### iCAP-DeePC
 The following gifs showcase a reference tracking performed with a Lasso-DeePC formulation jointly with its data selection.
 
 ## License
