@@ -38,14 +38,18 @@ Toward interpreting the decision taken by DeePC, we construct a Mosaic matrix fr
 </p>
 
 ### iLasso-DeePC
-The following gifs showcase a reference tracking performed with a Lasso-DeePC formulation jointly with its data selection.
+The following gifs showcase a reference tracking performed with an iLasso-DeePC formulation, its data selection, and BPIs.
 
-
-
-
+<p align="center">
+     <img src="gifs/iLasso.gif" alt="iLasso-DeePC trajectory tracking, data selection, and BPIs">
+</p> 
 
 ### iCAP-DeePC
-The following gifs showcase a reference tracking performed with a Lasso-DeePC formulation jointly with its data selection.
+The ensuing gifs display a reference tracking executed by an iCAP-DeePC formulation, its data selection, and BPIs.
+
+<p align="center">
+     <img src="gifs/iCAP.gif" alt="iCAP-DeePC trajectory tracking, data selection, and BPIs">
+</p> 
 
 ## License
 TODO: creative commons??
