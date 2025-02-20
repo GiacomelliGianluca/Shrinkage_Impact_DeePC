@@ -54,7 +54,8 @@ The ensuing gifs display a reference tracking executed by an iCAP-DeePC formulat
 </p> 
 
 ## License
-TODO: creative commons??
+This project is licensed under the terms of the `CC-BY-4.0` license.
+See [LICENSE](LICENSE) for more details.
 
 
 ## References
