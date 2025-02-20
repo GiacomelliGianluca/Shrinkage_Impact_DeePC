@@ -12,6 +12,7 @@ You will need:
 - `Matlab`
 - `Matlab statistics_toolbox` (see https://nl.mathworks.com/products/statistics.html)
 - `CVX` (see https://cvxr.com/)
+- `Gurobi` (see https://www.gurobi.com/)
 - `Hybrid Toolbox` (see https://cse.lab.imtlucca.it/~bemporad/hybrid/toolbox/)
 
 ## Installation
