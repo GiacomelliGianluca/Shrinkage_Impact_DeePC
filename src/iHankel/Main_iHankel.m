@@ -16,7 +16,7 @@ plt_set.fontname = 'Times';
 plt_set.fontsize = 12;
 
 % Dataset directory
-dataset_dir = '..\data\';
+dataset_dir = 'Set data path';
 
 %% System
 % n_u Input Size
