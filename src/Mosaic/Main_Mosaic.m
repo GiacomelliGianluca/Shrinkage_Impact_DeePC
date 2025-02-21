@@ -18,7 +18,7 @@ plt_set.fontsize = 12;
 % Dataset directory
 dataset_dir = '..\data\';
 
-%% System %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% System 
 
 % n_u Input Size
 n_u = 1;
@@ -144,7 +144,7 @@ label = label_N_ini;
 % Updating the dataset (unlabeled data are discarded)
 N_D = N_D - N_ini;
 
-%% DDPC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DDPC 
 
 % Number of simulation steps
 N = N_ini + T_c;
@@ -152,7 +152,7 @@ N = N_ini + T_c;
 N_ex = 1;
 
 % Setting the references 
-% Output reference evolving from x_0 to x_final based on spline HERE
+% Output reference evolving from x_0 to x_final based on spline 
 % Initial point of the trajectory
 y_0_r_ini = -10;
 % Final point of the trajectory
@@ -398,7 +398,7 @@ for k= 1 : (N_ini + T_c)
 end
 
 
-%% Plotting the results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Plotting the results 
 
 % Input - min tracking error
 fig_input = figure(10);
