@@ -1,0 +1,34 @@
+/* Hybrid model of a PWA */
+   
+SYSTEM PWA_sys {
+       
+INTERFACE {
+    STATE { 
+        REAL x[-15, 15];       
+           }
+    INPUT { 
+        REAL u[-50, 50];
+         }
+        OUTPUT {
+            REAL y; }
+    PARAMETER { 
+        REAL a1 = -0.3;
+        REAL a2 = 0.9;
+        REAL b1 = 1.4;
+        REAL b2 = 0.15; }
+}
+
+IMPLEMENTATION {
+		AUX { REAL z1;
+		      BOOL sign_p; }
+		AD  { sign_p = x >= 0;} 
+
+		DA  { z1 = {IF sign_p THEN a2*x + b2*u
+		            ELSE a1*x + b1*u };}
+	      
+	    CONTINUOUS { x = z1; }
+
+        OUTPUT { y = x; }
+
+	  }
+}
