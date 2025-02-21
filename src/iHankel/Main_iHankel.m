@@ -18,8 +18,7 @@ plt_set.fontsize = 12;
 % Dataset directory
 dataset_dir = '..\data\';
 
-%% System %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%% System
 % n_u Input Size
 n_u = 1;
 % n_y Output Size
@@ -144,7 +143,7 @@ label = label_id;
 % Centr = Centr_N_ini;
 % label = label_N_ini;
 
-%% DDPC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DDPC
 
 % Number of simulation steps
 N = N_ini + T_c;
@@ -373,7 +372,7 @@ if~isnan(y_pre_seq)
     RMSE_y = sqrt(1/T_c*sum((y(N_ini+1 : end-1, 1) - y_r_f(1: T_c)).^2));     
 end
 
-%% Plotting the results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Plotting the results
 
 % Input - min tracking error
 fig_input = figure(10);
